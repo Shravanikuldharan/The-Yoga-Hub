@@ -1,0 +1,46 @@
+.login-container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #EC7FA9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 6% auto;
+    width: 350px;
+}
+
+.login-container:hover{
+    transition: 0.3s;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+}
+
+.login-container h2 {
+    color: #BE5985;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #EC7FA9;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-link {
+    margin-top: 15px;
+    display: block;
+    color: #EC7FA9;
+}
